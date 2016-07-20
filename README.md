@@ -23,7 +23,7 @@ auth_api/check_recovery - AJAX Check password recovery <br />
 auth_api/update_user_data - AJAX Update user data <br />
 auth_api/check_reg - AJAX change_password
 
-Code is Legacy/OLD, now relocated to Yii Framework
+Code is Legacy/OLD, now relocating to Yii Framework
 
 <b>Main Systems</b>
 
