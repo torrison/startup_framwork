@@ -11,23 +11,23 @@ Demo User: 1@1.com 12345
 
 Based on Ion-Auth http://benedmunds.com/ion_auth/
 
-auth/login - Login/Register Page
-auth/logout - Logout URL
-auth/profile - Profile (Need User Session)
+auth/login - Login/Register Page__
+auth/logout - Logout URL__
+auth/profile - Profile (Need User Session)__
 
-auth_api/check_login - AJAX Login
-auth_api/fb_oauth_link - For FB Login Link
-auth_api/check_social_login - Social Login Redirects
-auth_api/check_reg - AJAX Register
-auth_api/check_recovery - AJAX Check password recovery
-auth_api/update_user_data - AJAX Update user data
-auth_api/check_reg - AJAX change_password
+auth_api/check_login - AJAX Login__
+auth_api/fb_oauth_link - For FB Login Link__
+auth_api/check_social_login - Social Login Redirects__
+auth_api/check_reg - AJAX Register__
+auth_api/check_recovery - AJAX Check password recovery__
+auth_api/update_user_data - AJAX Update user data__
+auth_api/check_reg - AJAX change_password__
 
 Code is Legacy/OLD, now relocated to Yii Framework
 
 <b>Main Systems</b>
 
-Content/Blog System
-Inside Admin Panel
-Sitemap Generator
-AJAX Requests
+Content/Blog System__
+Inside Admin Panel__
+Sitemap Generator__
+AJAX Requests__
