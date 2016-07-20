@@ -1,0 +1,188 @@
+a {
+	cursor: pointer;
+}
+
+.wblock {
+	background-color: white !important;
+	-webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important;
+	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important;
+	-o-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.hide {
+	display: none;
+}
+
+.main_block {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.block_h {
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.inline-checkbox {
+	display: inline;
+	margin-right: 10px;
+}
+
+.row_a_div {
+	display: block;
+}
+.row_a_div {
+	color: #333;
+}
+
+.row_a_div:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+.btn {
+	white-space: normal;
+}
+/* ---------------------- TOP Header -------------------------------------------- TOP Header ---------------------- */
+.header {
+	height: 60px;
+	width: 100%;
+	background-color: #fff;
+	border-bottom: 1px solid #D2D6DF;
+}
+
+.container {
+	margin: auto;
+	max-width: 1080px;
+}
+
+.logo_holder {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 60px;
+	float: left;
+	width: 190px;
+	display: block;
+	color: #333;
+}
+
+.header_right {
+	font-size: 16px;
+	line-height: 60px;
+	width: 110px;
+	float: right;
+	cursor: pointer;
+	text-align:center;
+}
+.header_right:hover {
+	font-weight: bold;
+	background: #f4fff4;
+}
+
+/* ---------------------- Website CSS -------------------------------------------- Website CSS ---------------------- */
+
+.register_btn {
+	width: 250px;
+	font-size: 16px;
+	color: #333;
+	display: block;
+}
+.register_btn:hover {
+	text-decoration: none;
+	color: #444;
+}
+
+.menu_btn {color: #333;  display: block;}
+.menu_btn:hover {color: #444;  text-decoration: none;}
+
+.user_container {
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+body {
+	background: #f3f3f3;
+}
+
+/* ---------------------- INDEX CSS -------------------------------------------- INDEX CSS ---------------------- */
+
+
+.why_img {
+	width: 100%;
+}
+
+/* ---------------------- INFO CSS -------------------------------------------- INFO CSS ---------------------- */
+
+.rel_block {
+	margin-top: 5px;
+}
+.comments_block_container .article_content {
+	max-width: 1024px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.wbgs1 {
+	background-color: white !important;
+	-webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) !important;
+	-moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) !important;
+	-o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) !important;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+.rel_items {
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+}
+
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+	color: #fff !important;
+}
+.rel_child_block h4, .rel_block h4 {
+	margin-bottom:0;
+	margin-top:0;
+}
+.rel_desc p {
+	font-size:10px;
+}
+.rel_a_text {
+	font-size: 16px;
+}
+
+/* ---------------------- PROFILE CSS -------------------------------------------- PROFILE CSS ---------------------- */
+
+#user_info input[type=text] {
+	width: 100%;
+}
+
+#user_pass input[type=text] {
+	width: 100%;
+}
+
+
+/* ---------------------- Footer -------------------------------------------- Footer ---------------------- */
+
+body {
+	margin-bottom: 30px;
+}
+
+.footer {
+	background-color: #333;
+	bottom:0;
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+	color: white;
+}
+
+/* ---------------------- For Mobile -------------------------------------------- Mobile ---------------------- */
+
+@media(max-width:650px) {
+	.menu_text {display: none;}
+	.header_right {width: 40px;}
+}

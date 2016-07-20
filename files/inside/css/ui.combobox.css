@@ -1,0 +1,21 @@
+  .ui-combobox {
+    position: relative;
+    display: inline-block;
+	width: 400px;
+	
+  }
+  .ui-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+    /* support: IE7 */
+    *height: 24px;;
+    *top: 0.1em;
+  }
+  .ui-combobox-input {
+    margin: 0;
+    padding: 1px;
+	width: 350px;
+  }

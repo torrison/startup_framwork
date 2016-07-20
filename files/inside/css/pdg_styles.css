@@ -1,0 +1,52 @@
+/*    PDG CRUD     */
+
+a {text-decoration: none; color: #333;}
+a:visited {color: #444;}
+a:hover {color:red;}
+a:active {color: darkred;}
+
+
+#pdg_limit {width: 30px;}
+
+/* ------------------------- CRUD --------------------------- */
+
+
+.pdg_column {float:left; border-left: 1px solid #ddd;}
+.pdg_column_cell {background-color:#d1d1d1; padding:3px; margin: 1px; cursor:pointer; height:18px; overflow: hidden; line-height: 18px;}
+.pdg_column_cell:nth-child(even) {background-color: #dfdfdf}
+.pdg_column_header {background-color:#555; padding:3px; color:#eee; cursor:pointer;height:18px;}
+
+.pdg_column_cell_active {background: #faa !important;}
+
+.pdg_column_checkbox {margin: 0 0 0 5px !important; }
+.pdg_button_edit {height: 16px; padding: 2px 8px; margin-left: 4px; margin-top: -3px;}
+
+.pdg_button {cursor:pointer;}
+.pdg_button: hover {text-decoration: underline;}
+
+.edit_tab_form input[type=text],.edit_tab_form input[type=password], .edit_tab_form select,  .edit_tab_form textarea{border: 1px solid silver; padding:3px;}
+
+.cell_tab_submit {cursor: pointer;}
+.cell_tab_reset {cursor: pointer;}
+
+.success_info  b{padding:8px; display:block;}
+
+/* ------------------ Cell Tabs Dialogs ---------------------------- */
+
+.cell_tab_input_name {cursor:pointer;}
+.edit_dialog_update {color:green;font-size:12px; margin-top:4px;}
+
+#pdg_page_prev {color: white; cursor:pointer;}
+#pdg_page_next {color: white; cursor:pointer;}
+
+
+.cell_tab_submit {padding:5px 15px 5px 15px; margin:10px; float: right;}
+.cell_tab_reset {border: 1px solid silver; padding:5px 15px 5px 15px; margin:10px; float: right;}
+
+#control_buttons {margin-top:12px;}
+
+/* multiselect styles */
+	.multiselect {
+		width: 460px;
+		height: 200px;
+	}
